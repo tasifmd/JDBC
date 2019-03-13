@@ -1,4 +1,4 @@
-package com.tasif.statements;
+package com.tasif.batchprocessing;
 
 import java.sql.Connection;
 import java.sql.SQLException;
