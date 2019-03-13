@@ -49,6 +49,7 @@ public class LoginPrepareStatement {
 				System.out.println("Login Failed");
 			}
 		}
+		JDBCUtility.cleanup(resultSet, preparedStatement, connection);
 		
 	}
 

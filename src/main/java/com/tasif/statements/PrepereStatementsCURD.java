@@ -107,6 +107,7 @@ public class PrepereStatementsCURD {
 				System.out.println(emal + " Rows affected");
 				break;
 			case 5:
+				JDBCUtility.cleanup(resultSet, preparedStatement, connection);
 				System.exit(0);
 			}
 		}while(flag == false);
