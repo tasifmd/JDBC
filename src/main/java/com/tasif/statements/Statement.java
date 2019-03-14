@@ -61,7 +61,6 @@ public class Statement {
 		case 5 :
 			System.exit(0);
 		}
-
 		JDBCUtility.cleanup(resultset, statement, connection);
 	}
 
